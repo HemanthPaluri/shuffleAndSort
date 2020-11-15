@@ -1,0 +1,116 @@
+.main-container {
+    background-color: #EFEFEF;
+}
+.top {
+    height: 70vh;
+}
+.bottom {
+    height: 30vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    padding-top: 10px;
+}
+.tiles-container {
+    float: left;
+    width: 70%;
+}
+.tile {
+    float: left;
+    width: 33.33%;
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.buttons-container {
+    float: left;
+    width: 30%;
+    text-align: center;
+    display: block;
+}
+.color-0 {
+    background-color: #2B8EAD;
+}
+.color-1 {
+    background-color: #6F98A8;
+}
+.color-2 {
+    background-color: #BFBFBF;
+}
+.color-3 {
+    background-color: #2F454E;
+}
+.buttons-container-top {
+    display: none;
+}
+button {
+    border: 0;
+    background-color: #72C3DC;
+    width: 80%;
+    padding: 20px;
+    border-radius: 4px;
+    color: #fff;
+    border-bottom: 5px solid #2B8EAD;
+    margin-top: 10px;
+}
+@media (max-width: 375px) {
+    html {
+       font-size:0.1em;
+    }
+    .buttons-container {
+        width: 100%;
+        float: right;
+        display: none;
+    }
+    .buttons-container-top {
+        display: block;
+    }
+    .tiles-container {
+        width: 100%;
+        float: left;
+    }
+    button {
+        width: 40%;
+        padding: 12px;
+        margin: 10px 10px 10px 0;
+    }
+    .tile {
+        width: 94%;
+        background-color: #EFEFEF;
+        margin-bottom: 10px;
+        color: #000;
+        padding: 10px;
+    }
+    .main-container {
+        background-color: #FFF;
+    }
+    .color-0 {
+        border-left: 10px solid #2B8EAD;
+    }
+    .color-1 {
+        border-left: 10px solid #6F98A8;
+    }
+    .color-2 {
+        border-left: 10px solid #BFBFBF;
+    }
+    .color-3 {
+        border-left: 10px solid #2F454E;
+    }
+    .bottom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+        font-size: 8em;
+    }
+ }
+
+ @media (min-width: 375px) and (max-width: 640px) {
+    html {
+        font-size:0.7em;
+     }
+ }
